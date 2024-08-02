@@ -2,6 +2,7 @@ import { IoBookOutline } from "react-icons/io5";
 import {Navbar} from '@/components/navbar'
 import {EducationList} from '@/components/education'
 import { Slider } from "@/components/ui/slider";
+import { Heading } from "@/components/heading";
 const Page = () => {
 
   return (
@@ -9,11 +10,7 @@ const Page = () => {
       <div className=" bg-big-card relative ml-0 text-white m-10 rounded-2xl p-5 ">
         <Navbar resume/>
        
-        <div className='mt-4 mx-2 text-white'>
-           <h1 className='text-4xl font-semibold  after:bg-primary '> Resume</h1>
-           <div className='bg-primary w-40 my-5 h-1  shadow-primary shadow'/>
-      </div>
-
+        <Heading title="Resume"/>
 
       <div className="mx-7 mt-12">
       <div className="flex gap-x-6 items-center justify-start my-8">

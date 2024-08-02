@@ -1,4 +1,5 @@
 
+import { Heading } from '@/components/heading';
 import {Navbar} from '@/components/navbar'
 import { SiMaterialdesign } from 'react-icons/si';
 const Page = () => {
@@ -8,8 +9,7 @@ const Page = () => {
       <div className="bg-big-card relative ml-0 text-white m-10 rounded-2xl p-5 ">
          <Navbar about/>
          <div className='mt-4 mx-2'>
-           <h1 className='text-4xl font-semibold  after:bg-primary '> About Me</h1>
-           <div className='bg-primary w-40 my-5 h-1  shadow-primary shadow'/>
+         <Heading title="About"/>
             <div className='tracking-wide leading-relaxed '>
               <p className='text-xl opacity-70'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore repudiandae accusantium adipisci, officiis sint perferendis quis deleniti atque harum fugiat similique hic reiciendis delectus ad quidem quas facilis, nobis molestias.</p>
               <p className='text-xl opacity-70 mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore repudiandae accusantium adipisci, officiis sint perferendis quis deleniti atque harum fugiat similique hic reiciendis delectus ad quidem quas facilis, nobis molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde vitae, perspiciatis fugit velit id dicta nam. Quia ullam minus fugit molestias autem accusantium tenetur voluptate ratione nulla distinctio, corporis enim!</p>
